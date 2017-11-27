@@ -42,7 +42,7 @@ def index(coords):
         "b": color[2],
         "code": description[0],
         "type": description[1], 
-         "isNature": (int(description[0]) < 100)}  
+         "isNature": (int(description[0]) < 200)}  
    return jsonify(d)
  
 
